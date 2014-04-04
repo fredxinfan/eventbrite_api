@@ -41,7 +41,7 @@ OAuth token needs to be updated before making an API call on behalf of a third p
 
 Get user details: ``@user.get``
 
-Get user team attendees: ``@user.owned_event_attendees.get``
+Get user owned events attendees: ``@user.owned_event_attendees.get``
 
 ### For Order API call:
 
