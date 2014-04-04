@@ -27,9 +27,5 @@ class EventbriteAPI
       route += "/#{method}/#{id}?#{token}"
       Request.new(route, params)
     end
-
-    # def call(path, params)
-    #   JSON.parse(self.class.send(params.delete(:method), path, query: params).body)
-    # end
   end
 end
