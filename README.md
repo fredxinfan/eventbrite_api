@@ -48,7 +48,7 @@ Get user team attendees: ``@user.owned_event_attendees.get``
 ``@order = @eb.orders(id: 123456)``
 ``@order.get``
 
-This gem also provides ``.post`` request as well as the ``.get`` above, but the V3 API is still in preview status and doesn't seem to be recognize the arguments in the documentation for POST request.
+This gem also provides ``.post`` request as well as the ``.get`` above, but the V3 API is still in preview status and doesn't seem to recognize the arguments in the documentation for POST request.
 
 For more information about V3 API, please visit http://developer.eventbrite.com/docs/.
 
