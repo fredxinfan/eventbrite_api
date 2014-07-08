@@ -20,6 +20,11 @@ class EventbriteAPI
       Response.new(response)
     end
 
+    def delete
+      response = self.class.delete(path, query: query).body
+      Response.new(response)
+    end
+
     def method_missing(method, *args)
       params = args[0].is_a?(Hash) ? args[0] : {}
       route, token = path.split("?")
