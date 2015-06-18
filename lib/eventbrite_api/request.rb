@@ -12,7 +12,7 @@ class EventbriteAPI
 
     def method_missing(method, *args)
       if [:get, :post, :delete].include?(method.to_sym)
-        response = self.class.send(method, path, query: query).body
+        response = self.class.send(method, path, {query: query}).body
         Response.new(response)
       else
         params = args[0].is_a?(Hash) ? args[0] : {}
