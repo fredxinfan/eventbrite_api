@@ -1,3 +1,4 @@
+require "erb"
 require "httparty"
 require "json"
 require "eventbrite_api/configuration"
