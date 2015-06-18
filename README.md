@@ -2,11 +2,11 @@ This gem is for Eventbrite V3 API only.
 
 # Get Started
 
-gem install eventbrite-api
+gem install eventbrite_api
 
 For Rails project:
 
-add gem 'eventbrite-api' to your Gemfile.
+add gem 'eventbrite_api' to your Gemfile.
 add ``EventbriteAPI::Configuration.access_token="your-oauth-token"`` in initializers.
 
 ## Quick examples
